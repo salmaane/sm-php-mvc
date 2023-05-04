@@ -1,9 +1,8 @@
 <?php 
 session_start();
 
-// require_once __DIR__ . "/../Autoloader/autoloader.php";     // My Custome Autoloader
-require_once __DIR__ . "/vendor/autoload.php";                 // Composer Autoloader
-
+// Composer Autoloader
+require_once __DIR__ . "/vendor/autoload.php";
 // config
 require_once 'app/Core/config.php';
 // Core functions

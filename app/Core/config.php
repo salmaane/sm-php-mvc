@@ -5,6 +5,7 @@ define('SITE_NAME','php-simple-mvc');
 
 // App Root
 define('APP_ROOT',dirname(dirname(dirname(__FILE__))));
+define('ROOT_DIRNAME','sm-php-mvc');
 define('URL_ROOT','');
 define('URL_SUBFOLDER', '');
 

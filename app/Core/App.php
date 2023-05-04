@@ -15,7 +15,7 @@ class App {
     private function URLparse()  {
         $URL = parse_url($_SERVER['REQUEST_URI'])['path'];
         
-        $URL = str_replace('/php_mvc','',$URL);
+        $URL = str_replace('/'. ROOT_DIRNAME,'',$URL);
         $URL = trim($URL,'/');
 
         return $URL;
