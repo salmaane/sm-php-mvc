@@ -3,7 +3,8 @@
 namespace App\Controllers;
 use App\Core\Controller;
 
-    class NotFound extends Controller {
+    class NotFound {
+        use Controller;
 
         public function index() {
             $this->view('notFound');

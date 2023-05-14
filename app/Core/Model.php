@@ -5,7 +5,6 @@
 namespace App\Core;
 
 trait Model {
-
     use Database;
 
     public $limit = 10;
